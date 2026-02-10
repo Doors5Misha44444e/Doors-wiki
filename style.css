@@ -1,0 +1,23 @@
+:root { color-scheme: light; }
+    .glass { backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+    .prose-ish p { line-height: 1.65; }
+    .prose-ish h2,.prose-ish h3,.prose-ish h4,.prose-ish h5,.prose-ish h6 { scroll-margin-top: 96px; }
+
+    .video-wrap { position: relative; width: 100%; padding-top: 56.25%; }
+    .video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+   
+    .section-card { position: relative; }
+    .section-card::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 14px;
+      bottom: 14px;
+      width: 4px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(99,102,241,.95), rgba(249,115,22,.85));
+      opacity: .9;
+    }
+    .section-gap { height: 14px; }
